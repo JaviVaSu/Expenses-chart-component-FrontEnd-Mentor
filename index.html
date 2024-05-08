@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./estilos/styles.css">
+
+  <script src="./js/jquery-3.7.1.min.js"></script>
+  <script src="./js/main.js"></script>
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+
+</head>
+<body>
+
+  <main>
+    <section class="contenedor">
+
+      <div class="top">
+        <div class="balance">
+          <p class="my-balance">My balance</p>
+          <p class="cantidad">$921.48</p>
+        </div>
+        <img src="./images/logo.svg" alt="">
+      </div>
+
+      <div class="center">
+        <h1>Spending - Last 7 days</h1>
+
+        <div class="grafica1">
+          <div class="dia1">
+            <span class="info" id="mon">$17.45</span>
+            <div class="barra1" id="barra1"></div>
+            <span class="dia">mon</span>
+          </div>
+
+          <div class="dia1">
+            <span class="info" id="tue">$34.91</span>
+            <div class="barra2" id="barra2"></div>
+            <span class="dia">tue</span>
+          </div>
+
+          <div class="dia1">
+            <span class="info" id="wed">$52.36</span>
+            <div class="barra3" id="barra3"></div>
+            <span class="dia">wed</span>
+          </div>
+
+          <div class="dia1">
+            <span class="info" id="thu">$31.07</span>
+            <div class="barra4" id="barra4"></div>
+            <span class="dia">thu</span>
+          </div>
+
+          <div class="dia1">
+            <span class="info" id="fri">$23.39</span>
+            <div class="barra5" id="barra5"></div>
+            <span class="dia">fri</span>
+          </div>
+
+          <div class="dia1">
+            <span class="info" id="sat">$43.28</span>
+            <div class="barra6" id="barra6"></div>
+            <span class="dia">sat</span>
+          </div>
+
+          <div class="dia1">
+            <span class="info" id="sun">$25.48</span>
+            <div class="barra7" id="barra7"></div>
+            <span class="dia">sun</span>
+          </div>
+        </div>
+
+        <div class="divisor"></div>
+
+        <div class="bottom">
+          <div>
+            <p class="total">Total this month</p>
+            <p class="numerototal">$478.33</p>
+          </div>
+          <div>
+            <p class="porcentaje">+2.4%</p>
+            <p class="ultimomes">from last month</p>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+  </main>
+  
+</body>
+</html>
